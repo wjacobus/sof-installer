@@ -41,10 +41,10 @@ mpr_monitor_branch: v0.1.0
 diabetes_monograph_branch: v0.1.0
 disease_monograph_branch: v0.1.0
 ```
-Based on the aboveI concluded that the installer creates a user named fhir on my machine with the password __secretpass__. However, if we try to  log into the fhir user account the password doesn't work. Thus, I changed the password manually. This is shown below.
+Based on the aboveI concluded that the installer creates a user named __fhir__ on my machine with the password __secretpass__. However, if we try to  log into the fhir user account the password doesn't work. Thus, I changed the password manually. This is shown below.
 
 ```
 sudo passwd fhir
 ```
 
-### We are now ready to run my script.
+### We are now ready to run sof_installer.sh.
