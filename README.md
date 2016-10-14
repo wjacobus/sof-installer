@@ -42,3 +42,5 @@ Based on the aboveI concluded that the installer creates a user named fhir on my
 ```
 sudo passwd fhir
 ```
+
+### We are now ready to run my script.
