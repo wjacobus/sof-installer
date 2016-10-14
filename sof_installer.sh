@@ -5,11 +5,14 @@ sudo apt-get update
 sudo apt-get install curl git python-pycurl python-pip python-yaml python-paramiko python-jinja2
 sudo pip install ansible==1.8.2
 echo "Done."
-echo "Downloading smart-on-fhir source."
-git clone https://github.com/smart-on-fhir/installer
-echo "Done."
 echo "Creating smart-on-fhir directory."
 mkdir smart-on-fhir
+echo "Done."
+echo "Changing directory to smart-on-fhir"
+cd smart-on-fhir
+echo "Done."
+echo "Downloading smart-on-fhir source."
+git clone https://github.com/smart-on-fhir/installer
 echo "Done."
 echo "Changing directory to installer/provisioning"
 cd installer/provisioning
