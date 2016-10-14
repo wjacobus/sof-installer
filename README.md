@@ -5,7 +5,7 @@ A single script to install smart-on-fhir.
 I decided to setup a stand alone smart-on-fhir instance due to my interest in developing interoperable medical apps. I went over to the smart-on-fhir github page and read and went through the steps outlined under their install section. However, I ran into various problems in doing so. The problems are outlineed below together with their fixes.
 
 ```
-NB! Only after you have fixed the problems outlined below may you run the sof\_installer.sh script.
+NB! Only after you have fixed the problems outlined below may you run the sof_installer.sh script.
 ```
 
 # Problem 1:
