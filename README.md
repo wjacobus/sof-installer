@@ -1,4 +1,4 @@
-# sof-installer
+# SOF-installer
 A single script to install smart-on-fhir.
 
 # Motivation
